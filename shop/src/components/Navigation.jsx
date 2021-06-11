@@ -24,7 +24,7 @@ const Navigation = () => {
         </Nav.Link>
       </Nav>
       <Nav>
-        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+        {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
         {/* <Button variant="outline-success">Search</Button> */}
       </Nav>
     </Navbar>

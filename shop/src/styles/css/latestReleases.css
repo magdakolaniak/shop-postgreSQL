@@ -10,3 +10,7 @@
 .bookrow .card-columns {
   column-count: 6;
 }
+.pagination {
+  margin-bottom: 30px;
+  margin-right: 30px;
+}

@@ -69,8 +69,10 @@ class LatestReleases extends React.Component {
                   />
                 </Col>
               ))}
+              <br></br>
             </Row>
           </Col>
+
           <Col md={5}>
             {
               <CommentArea

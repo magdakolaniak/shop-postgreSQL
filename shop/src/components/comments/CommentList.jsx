@@ -78,7 +78,7 @@ class CommentList extends Component {
         </ListGroup>
       </div>
     ) : (
-      <h6>No Comments, add one!</h6>
+      <h6 className="add-review">Add your review!</h6>
     );
   }
 }

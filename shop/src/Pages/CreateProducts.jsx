@@ -18,7 +18,7 @@ export class CreateProducts extends Component {
     const formData = new FormData();
 
     if (e.target.files[0]) {
-      formData.append('cover', e.target.files[0]);
+      formData.append('upload', e.target.files[0]);
       this.setState((state) => {
         return { formData: formData };
       });
@@ -260,16 +260,16 @@ export class CreateProducts extends Component {
                   placeholder="price in Euro"
                   required
                 />
-                <Form.File
+                {/* <Form.File
                   id="custom-picture"
                   label="Cover"
                   onChange={(e) => this.handleFileChange(e)}
-                />
+                /> */}
               </div>
               {!this.props.match.params.hasOwnProperty('id') && (
                 <button
                   type="button"
-                  className="btn btn-primary float-right"
+                  className="btn btn-sucess float-right"
                   onClick={(e) => {
                     this.postProduct(e);
                     this.setState({ ...this.state, showSuccess: true });
@@ -287,19 +287,19 @@ export class CreateProducts extends Component {
                     this.setState({ ...this.state, showDelete: true });
                   }}
                 >
-                  Delete product
+                  Delete
                 </button>
               )}
               {this.props.match.params.hasOwnProperty('id') && (
                 <button
                   type="button"
-                  className="backoffice-editbtn btn btn-light float-right mx-1"
+                  className="backoffice-editbtn btn btn-secondary float-right mx-1"
                   onClick={(e) => {
                     this.putProduct(e);
                     this.setState({ ...this.state, showUpdate: true });
                   }}
                 >
-                  Edit your product
+                  Save changes
                 </button>
               )}
             </form>
