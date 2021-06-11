@@ -1,0 +1,31 @@
+.commentArea {
+  height: 80vh;
+  overflow: scroll;
+
+  background-color: #b3adad;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 4px 19px 34px 15px #757575;
+  box-shadow: 4px 19px 34px 15px #757575;
+}
+.headlines {
+  text-align: left !important;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.rating {
+  background-color: #c3e6cb !important;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.comment {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: italic;
+}
+.inputs {
+  margin-left: 10px;
+  margin-right: 10px;
+}

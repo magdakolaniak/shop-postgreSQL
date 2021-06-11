@@ -1,0 +1,27 @@
+.footer {
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.footer-style {
+  background-color: #343a40;
+}
+/* body {
+  font-family: var(--bs-font-sans-serif);
+  font-weight: bolder;
+  color: white;
+} */
+.footer-links {
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+}
+.footer-links :hover {
+  color: white !important;
+}
+.icons {
+  font-size: 26px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+}

@@ -1,0 +1,17 @@
+.navbar {
+  max-height: 15vh;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+.amazon-logo {
+  height: 80px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=pagenav.css.map */
